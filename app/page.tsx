@@ -1,7 +1,11 @@
+import ListaTarefa from "./components/ListaTarefas";
+
 export default function Home() {
   return (
-    <main>
-      <div>Hello world!</div>
-    </main>
-  );
+    <>
+      <ListaTarefa />
+    </>
+
+
+  )
 }
